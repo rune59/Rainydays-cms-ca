@@ -11,7 +11,7 @@ console.log(id);
 
 // And this link is for use after the WP and database has been uploaded 
 // from local server on my computer to my web-hotel. 
-const url = "http://runrun.no/rainydays/wp-json/wc/store/products/" + id;
+const url = "https://runrun.no/rainydays/wp-json/wc/store/products/" + id;
 
 console.log(url);
 

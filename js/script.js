@@ -4,7 +4,7 @@
 
 // And this link is for use after the WP and database has been uploaded 
 // from local server on my computer to my web-hotel. 
-const baseUrl = "http://runrun.no/rainydays/wp-json/wc/store/products";
+const baseUrl = "https://runrun.no/rainydays/wp-json/wc/store/products";
 
 
 const productContainer = document.querySelector(".manyProducts");
