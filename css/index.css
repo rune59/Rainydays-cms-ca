@@ -1,0 +1,39 @@
+/* Just for the index.html */
+.grid-index {
+  height: auto;
+}
+
+.index-content {
+  grid-area: c;
+}
+.ind-cont-a {
+  grid-area: a;
+}
+.ind-cont-b {
+  grid-area: b;
+}
+.ind-cont-c {
+  grid-area: c;
+}
+.ind-cont-d {
+  grid-area: d;
+}
+.ind-cont-a,
+.ind-cont-c {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+.frontpage_img1 {
+  width: 700px;
+  height: 400px;
+  padding-top: 5px;
+  border-radius: 10%;
+}
+
+.frontpage_img2 {
+  width: 500px;
+  height: 400px;
+  padding-top: 5px;
+  border-radius: 10%;
+}

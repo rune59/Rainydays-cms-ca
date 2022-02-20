@@ -1,0 +1,637 @@
+/*****************************************
+
+THE FILE INDEX.HTML 
+
+******************************************/
+
+/* 1300- --> */
+
+@media screen and (min-width: 1300px) {
+  .grid-index {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 93px 93px auto;
+    grid-template-areas:
+      "l m m m m m m m m m m m "
+      "l h h h h h h h h h h h"
+      "c c c c c c c c c c c c";
+    gap: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+  .index-content {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "a c"
+      "b d";
+    text-align: center;
+  }
+  .ind-cont-b {
+    padding-left: 20px;
+  }
+}
+
+/* 1050-1299px */
+
+@media screen and (min-width: 1050px) and (max-width: 1299px) {
+  .grid-index {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 93px 93px auto;
+    grid-template-areas:
+      "l m m m m m m m m m m m "
+      "l h h h h h h h h h h h"
+      "c c c c c c c c c c c c";
+    gap: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+  .index-content {
+    justify-content: space-around;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 220px 300px 310px;
+    grid-template-areas:
+      "a a"
+      "b d"
+      "c c";
+    text-align: center;
+  }
+  .frontpage_img1 {
+    width: 450px;
+    height: 300px;
+    padding-top: 5px;
+    border-radius: 10%;
+  }
+
+  .frontpage_img2 {
+    width: 450px;
+    height: 300px;
+    padding-top: 5px;
+    border-radius: 10%;
+  }
+  .ind-cont-b {
+    padding-left: 20px;
+  }
+}
+
+/* 800-1049px */
+
+@media screen and (min-width: 800px) and (max-width: 1049px) {
+  .grid-index {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 93px 93px auto;
+    grid-template-areas:
+      "l m m m m m m m m m m m "
+      "l h h h h h h h h h h h"
+      "c c c c c c c c c c c c";
+    gap: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .index-content {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px 230px 310px;
+    grid-template-areas:
+      "a a"
+      "b d"
+      "c c";
+    text-align: center;
+  }
+  .frontpage_img1 {
+    width: 325px;
+    height: 200px;
+    padding-top: 5px;
+    border-radius: 10%;
+  }
+
+  .frontpage_img2 {
+    width: 325px;
+    height: 200px;
+    padding-top: 5px;
+    border-radius: 10%;
+  }
+  .ind-cont-b {
+    padding-left: 20px;
+  }
+}
+
+/* 501-799px */
+@media screen and (min-width: 501px) and (max-width: 799px) {
+  .grid-index {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 195px 93px 93px auto;
+    grid-template-areas:
+      "l l l l l l l l l l l l"
+      "m m m m m m m m m m m m"
+      "h h h h h h h h h h h h"
+      "c c c c c c c c c c c c";
+    gap: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+  .index-content {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 360px 300px 250px 310px;
+    grid-template-areas:
+      "a a"
+      "b b"
+      "c c"
+      "d d";
+    text-align: center;
+  }
+  .frontpage_img1 {
+    width: 450px;
+    height: 300px;
+    padding-top: 5px;
+    border-radius: 10%;
+  }
+
+  .frontpage_img2 {
+    width: 450px;
+    height: 300px;
+    padding-top: 5px;
+    border-radius: 10%;
+  }
+  .ind-cont-b,
+  .ind-cont-d {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+/* 1-500px */
+@media screen and (max-width: 500px) {
+  .index-content {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 360px 300px 350px 310px;
+    grid-template-areas:
+      "a a"
+      "b b"
+      "c c"
+      "d d";
+    text-align: center;
+  }
+  .frontpage_img1 {
+    width: 350px;
+    height: 250px;
+    padding-top: 5px;
+    border-radius: 10%;
+  }
+
+  .frontpage_img2 {
+    width: 350px;
+    height: 250px;
+    padding-top: 5px;
+    border-radius: 10%;
+  }
+}
+
+/*****************************************
+
+THE FILE ABOUT.HTML 
+
+******************************************/
+
+@media screen and (min-width: 1330px) {
+  .grid-about {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 314px repeat(9, 1fr);
+    grid-template-rows: 93px 93px 300px 300px;
+    grid-template-areas:
+      "l m m m m m m m m m"
+      "l h h h h h h h h h"
+      "c1 c3 c3 c3 c4 c4 c4 c5 c5 c5"
+      "c2 c6 c6 c6 c7 c7 c7 c8 c8 c8";
+    gap: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 960px) and (max-width: 1329px) {
+  .grid-about {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 93px 93px 150px 300px 300px;
+    grid-template-areas:
+      "l m m m m m m m m m m m"
+      "l h h h h h h h h h h h"
+      "c1 c1 c1 c1 . c2 c2 c2 c2 c2 c2 c2"
+      "c3 c3 c4 c4 c4 c4 c4 c5 c5 c5 c5 c5"
+      "c6 c6 c7 c7 c7 c7 c7 c8 c8 c8 c8 c8";
+    gap: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 959px) {
+  .grid-about {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 93px 93px 200px 300px 300px 300px;
+    grid-template-areas:
+      "l m m m m m m m m m m m"
+      "l h h h h h h h h h h h"
+      "c1 c1 c1 c1 . c2 c2 c2 c2 c2 c2 c2"
+      "c3 c3 c4 c4 c4 c4 c4 c4 c4 c4 c4 c4"
+      "c5 c5 c6 c6 c6 c6 c6 c6 c6 c6 c6 c6"
+      "c7 c7 c8 c8 c8 c8 c8 c8 c8 c8 c8 c8";
+    gap: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .grid-about {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 195px 93px 93px 300px 300px 300px 300px 300px 300px 300px 300px;
+    grid-template-areas:
+      "l l l l l l l l l l l l"
+      "m m m m m m m m m m m m"
+      "h h h h h h h h h h h h"
+      "c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1"
+      "c2 c2 c2 c2 c2 c2 c2 c2 c2 c2 c2 c2"
+      "c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3 c3"
+      "c4 c4 c4 c4 c4 c4 c4 c4 c4 c4 c4 c4"
+      "c5 c5 c5 c5 c5 c5 c5 c5 c5 c5 c5 c5"
+      "c6 c6 c6 c6 c6 c6 c6 c6 c6 c6 c6 c6"
+      "c7 c7 c7 c7 c7 c7 c7 c7 c7 c7 c7 c7"
+      "c8 c8 c8 c8 c8 c8 c8 c8 c8 c8 c8 c8";
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+/*****************************************
+
+THE FILE PRODUCT.HTML 
+
+******************************************/
+
+@media screen and (min-width: 820px) {
+  .grid-product-head {
+    justify-content: space-around;
+    display: grid;
+    height: auto;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 93px 93px;
+    grid-template-areas:
+      "l m m m m m m m m m m m"
+      "l h h h h h h h h h h h";
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 819px) {
+  .grid-product-head {
+    justify-content: space-around;
+    display: grid;
+    height: auto;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 195px 93px 93;
+    grid-template-areas:
+      "l l l l l l l l l l l l"
+      "m m m m m m m m m m m m"
+      "h h h h h h h h h h h h";
+    gap: 10px;
+    text-align: center;
+  }
+}
+
+/* When the screen is wider than 901 px */
+@media screen and (min-width: 901px) {
+  .pictures-women-jackets {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "wj1 wj2 wj3 wj4 wj5 wj6";
+  }
+  .pictures-men-jackets {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "mj1 mj2 mj3 mj4 mj5 mj6";
+  }
+}
+/* When the screen is between 781px and 900px wide */
+@media screen and (min-width: 781) and (max-width: 900px) {
+  .picture-women-jackets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "wj1 wj2 wj3"
+      "wj4 wj5 wj6";
+  }
+  .pictures-men-jackets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "mj1 mj2 mj3"
+      "mj4 mj5 mj6";
+  }
+}
+/* When the screen is between 491px and 780px wide */
+@media screen and (min-width: 491) and (max-width: 780px) {
+  .picture-women-jackets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "wj1 wj2"
+      "wj3 wj4"
+      "wj5 wj6";
+  }
+  .pictures-men-jackets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "wj1 wj2"
+      "wj3 wj4"
+      "wj5 wj6";
+  }
+}
+/* When the screen is narrower than 490px wide */
+@media screen and (max-width: 490px) {
+  .picture-women-jackets {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas:
+      "wj1"
+      "wj2"
+      "wj3"
+      "wj4"
+      "wj5"
+      "wj6";
+  }
+  .pictures-men-jackets {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "wj1"
+      "wj2"
+      "wj3"
+      "wj4"
+      "wj5"
+      "wj6";
+  }
+}
+
+/*****************************************
+
+THE FILE CHECKOUT.HTML 
+
+******************************************/
+@media screen and (min-width: 800px) {
+  .grid-checkout {
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 93px 93px;
+    grid-template-areas:
+      "l m m m m m m m m m m m "
+      "l h h h h h h h h h h h";
+    gap: 10px;
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px;
+  }
+}
+@media screen and (max-width: 799px) {
+  .grid-checkout {
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 195px 93px 93px;
+    grid-template-areas:
+      "l l l l l l l l l l l l"
+      "m m m m m m m m m m m m"
+      "h h h h h h h h h h h h";
+    gap: 10px;
+    text-align: center;
+    justify-content: space-around;
+    margin: 20px;
+  }
+}
+
+/* Responsive layout - when the screen is less than 
+800px wide, make the two columns stack on top of 
+each other instead of next to each other (also 
+change the direction - make the "cart" column go 
+on top) */
+@media (max-width: 799px) {
+  .checkout-container {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "ch1"
+      "cd2"
+      "ch3";
+    text-align: center;
+    gap: 20px;
+    margin: 20px;
+  }
+}
+@media (min-width: 800px) {
+  .checkout-container {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "ch1 ch2"
+      "cd3 ch3";
+    text-align: center;
+    gap: 20px;
+    margin: 20px;
+  }
+}
+
+/*****************************************
+
+THE FILE SUCCESS.HTML 
+
+******************************************/
+@media screen and (max-width: 800px) {
+  .grid-success {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 195px 93px 93px 540px;
+    grid-template-areas:
+      "l l l l l l l l l l l l"
+      "m m m m m m m m m m m m"
+      "h h h h h h h h h h h h"
+      "s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1";
+    gap: 10px;
+    text-align: center;
+  }
+  .bg-img {
+    height: 225px;
+    width: 360px;
+  }
+}
+@media screen and (min-width: 801px) {
+  .grid-success {
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 93px 93px 540px;
+    grid-template-areas:
+      "l m m m m m m m m m m m"
+      "l h h h h h h h h h h h"
+      "s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1 s1";
+    gap: 10px;
+    text-align: center;
+  }
+  .bg-img {
+    height: 450px;
+    width: 672;
+  }
+}
+
+/*****************************************
+
+THE FILE CONTACT.HTML 
+
+******************************************/
+
+@media screen and (min-width: 800px) {
+  .grid-contact {
+    justify-content: space-around;
+    display: grid;
+    height: auto;
+    grid-template-columns: 314px repeat(11, 1fr);
+    grid-template-rows: 93px 93px auto;
+    grid-template-areas:
+      "l m m m m m m m m m m m"
+      "l h h h h h h h h h h h"
+      "c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1 c1";
+    gap: 10px;
+    text-align: center;
+    margin: 20px;
+  }
+}
+/* The contact form in the file contact.htm. */
+@media screen and (min-width: 400px) {
+  form {
+    grid-template-columns: 200px 1fr;
+    gap: 16px;
+  }
+
+  label {
+    text-align: right;
+    grid-column: 1 / 2;
+  }
+
+  input,
+  button {
+    grid-column: 2 / 3;
+  }
+}
+
+/*****************************************
+
+THE FOOTER (GOES FOR ALL FILES) 
+
+******************************************/
+
+/* THE FOOTER **/
+@media screen and (min-width: 1180px) {
+  .footer-container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "contact social newsletter"
+      "bottom-line bottom-line bottom-line";
+  }
+}
+
+@media screen and (min-width: 1070px) and (max-width: 1179px) {
+  .footer-container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "contact contact social"
+      "newsletter newsletter newsletter"
+      "bottom-line bottom-line bottom-line";
+  }
+  .contact-block {
+    justify-self: center;
+  }
+  .text-input {
+    justify-self: center;
+  }
+}
+@media screen and (min-width: 588px) and (max-width: 1069px) {
+  .footer-container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "contact contact social"
+      "newsletter newsletter newsletter"
+      "bottom-line bottom-line bottom-line";
+  }
+  .contact-block {
+    justify-self: center;
+  }
+  .social-networks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 50px;
+    justify-items: center;
+  }
+  .text-input {
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 587px) {
+  .footer-container {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "contact"
+      "newsletter"
+      "social"
+      "bottom-line";
+  }
+}

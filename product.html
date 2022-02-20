@@ -1,0 +1,146 @@
+<!--This example use grid-template-areas to design webpages-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <link href="css/about.css" rel="stylesheet" />
+    <link href="css/product.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/checkout.css" rel="stylesheet" />
+    <link href="css/success.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <title>RainyDays | Products</title>
+</head>
+
+<body>
+    <!--The GRID-PRODUCT-HEAD container-->
+    <div class="grid-product-head">
+        <!--The logo section-->
+        <section class="logo">
+            <div class="a" style="background-image: url(images/RainyDays_Logo.png);">
+            </div>
+        </section>
+        <!--The navigation section-->
+        <section class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html" class="active">Products</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </section>
+        <!--The heading section-->
+        <section class="heading">
+            <h1>We have rain jackets both for men and women</h1>
+        </section>
+    </div>
+
+    <div class="allProducts">
+        <h1>A list of Products from Rainydays</h1>
+        <br>
+
+        <!-- This search-part does not work -->
+        <!-- <div class="search">
+            <input type="search" id="search-input" />
+            <button class="search-button">Search</button>
+        </div> -->
+
+
+        <br>
+        <div class="categories">
+            <label for="featured">Featured</label>
+            <input type="radio" id="featured" class="category" name="category" value="true" />
+            <label for="premium">Men Jackets</label>
+            <input type="radio" id="men" class="category" name="category" value="17" />
+            <label for="Simple">Women Jackets</label>
+            <input type="radio" id="women" class="category" name="category" value="18" />
+        </div>
+        <br>
+        <div class="per-page">
+            <label for="">Number of jackets per page</label>
+            <select class="per-page-selection">
+                <option value="2">Two</option>
+                <option value="4">Four</option>
+                <option value="6">Six</option>
+                <option value="8">Eight</option>
+                <option value="10">Ten</option>
+            </select>
+        </div>
+        <br><br>
+        <div class="manyProducts">
+
+        </div>
+    </div>
+
+
+    <section>
+        <a href="checkout.html" class="cta-order-jacket">Payment</a>
+    </section>
+    </div>
+    <!--The FOOTER-CONTAINER container-->
+    <div class="footer-container">
+        <!--The contact section-->
+        <section class="contact-block">
+            <h3>We're happy to hear from you!</h3>
+            <a href="tel:22-33-44-55"><i class="fas fa-phone"></i> 22 33 44 55</a>
+            <a href="mailto:info@mycompany.xyz">info@rainydays.xyz</a>
+        </section>
+        <!--The social networks section-->
+        <section class="social-networks">
+            <h3>Share our content!</h3>
+            <div class="facebook">
+                <a href="#"></a><i class="fa fa-facebook" style="font-size:var(--fontsize-social-media-icons)"></i>
+            </div>
+            <div class="twitter">
+                <a href="#"></a><i class="fa fa-twitter" style="font-size:var(--fontsize-social-media-icons)"></i>
+            </div>
+            <div class="instagram">
+                <a href="#"></a><i class="fa fa-instagram" style="font-size:var(--fontsize-social-media-icons)"></i>
+            </div>
+        </section>
+        <!--The newsletter section-->
+        <section class="newsletter">
+            <div class="newsletter-text">
+                <div class="icon">
+                    <i class="fa fa-paper-plane" style="font-size:var(--fontsize-newsletter-icon)"></i>
+                </div>
+                <p>
+                    Subscribe to our Newsletter
+                </p>
+            </div>
+            <div class="text-input">
+                <form action="post">
+                    <input type="email" name="Enter Your Email Address" size="20">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        <!--The bottom line section-->
+        <section class="bottom-line">
+            <div class="copyright">
+                <p>Copyright &copy;</p>
+            </div>
+            <div class="terms-of-use">
+                <a href="#">Terms of use</a>
+            </div>
+            <div class="privacy">
+                <a href="#">Privacy</a>
+            </div>
+            <div class="legal">
+                <a href="#">Legal</a>
+            </div>
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

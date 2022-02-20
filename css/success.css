@@ -1,0 +1,18 @@
+.grid-success {
+  height: auto;
+  margin: 20px;
+}
+.success-content1 {
+  grid-area: s1;
+  height: auto;
+}
+
+.bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.success-content1 h2 {
+  text-align: left;
+  color: blue;
+}

@@ -1,0 +1,109 @@
+
+
+
+
+
+
+
+
+.grid-product-head {
+  height: auto;
+  margin: 20px;
+}
+
+.picture-jackets {
+  height: auto;
+  margin: 20px;
+}
+/* Theses two grid areas are defined here, but not used in the media queries. */
+.pictures-women-jackets {
+  grid-area: wj;
+}
+.pictures-men-jackets {
+  grid-area: mj;
+}
+
+/* the grid areas for the women pictures */
+.wj1 {
+  grid-area: wj1;
+}
+.wj2 {
+  grid-area: wj2;
+}
+.wj3 {
+  grid-area: wj3;
+}
+.wj4 {
+  grid-area: w4;
+}
+.wj5 {
+  grid-area: wj5;
+}
+.wj6 {
+  grid-area: wj6;
+}
+
+/* the grid areas for the men pictures */
+.mj1 {
+  grid-area: mj1;
+}
+.mj2 {
+  grid-area: mj2;
+}
+.mj3 {
+  grid-area: mj3;
+}
+.mj4 {
+  grid-area: mj4;
+}
+.mj5 {
+  grid-area: mj5;
+}
+.mj6 {
+  grid-area: mj6;
+}
+
+.picture-jackets img {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+}
+.picture-jackets,
+.pictures-women-jackets a,
+.pictures-men-jackets a {
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: black;
+}
+.pictures-women-jackets,
+.pictures-men-jackets {
+  margin: 20px;
+}
+
+.text-women-jackets,
+.text-men-jackets {
+  margin: 20px;
+  text-align: center;
+}
+.cta-order-jacket {
+  margin: 20px 200px 20px 200px;
+  display: block;
+  text-align: center;
+  background-color: green;
+  color: #fff;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+
+.jacket-specific-price {
+  font-weight: bold;
+}
+
+.gallery_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}

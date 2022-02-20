@@ -1,0 +1,23 @@
+:root {
+  /* --color-header-footer: #202020;*/
+  --color-button-newsletter-subscribe: #f99639;
+  --text-color-heading: #ffff;
+
+  --bottom-top-line-layout: 2px solid #f99639;
+
+  --background-color-logo: rgb(97, 90, 90);
+  --background-color-ul: rgb(97, 90, 90);
+  --background-color-heading: #2b93e0;
+
+  --menu-color-hover: #111;
+
+  --footer-text-color: #fff;
+  --footer-background-color: rgb(97, 90, 90);
+
+  --fontsize-social-media-icons: 36px;
+  --fontsize-newsletter-icon: 36px;
+
+  /* for pedagogic use only, see the bottom of the "styles.css" page */
+  --border-layout-grids: 2px solid #fe6700;
+  --background-color-grids: #fff2ea;
+}
