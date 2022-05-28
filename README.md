@@ -10,7 +10,7 @@
 - [Acknowledgments](#acknowledgments)
 
 # Description
-The website is made for a fictional company called Rainydays. The customer segment is young people who are physically active and like to travel in nature in all kinds of weather.
+The website is made for a fictional company called Rainydays. They sell sportswear and rainwear.The customer segment is young people who are physically active and like to travel in nature in all kinds of weather.
 
 [Back To The Top](#project-name)
 
