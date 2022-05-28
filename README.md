@@ -51,7 +51,7 @@ The menus are
 - Contact
 
 This is the Netliify link to the project: 
-https://keen-albattani-54dec5.netlify.app/about.html
+https://keen-albattani-54dec5.netlify.app/index.html
 
 This is the link to the Github repository: 
 https://github.com/rune59/Rainydays-cms-ca
