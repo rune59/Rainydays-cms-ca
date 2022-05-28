@@ -75,4 +75,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 # Acknowledgments
 Many thanks to teachers and fellow students at Noroff who have been helpful in solving problems along the way.
 
+This link has been helpful: 
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/about-writing-and-formatting-on-github
+
+
+
 [Back To The Top](#project-name)
